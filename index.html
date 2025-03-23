@@ -1,0 +1,153 @@
+ <!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>حلول ابتكارية لمشاكل البلد</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      background-color: #f4f4f4;
+    }
+    header {
+      background: linear-gradient(45deg, #007BFF, #FF5733);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .content {
+      max-width: 1000px;
+      margin: auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+    }
+    .box {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    /* تنسيق خاص لقسم التبرعات */
+    .donation {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .donation a {
+      background-color: #FF5733;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <!-- الصفحة الرئيسية مع رسالة ترحيبية -->
+  <header>
+    <h1>مرحباً بالمبدعين</h1>
+    <p>حلول ابتكارية لمواجهة مشاكل بلدنا</p>
+  </header>
+  
+  <!-- قائمة التنقل -->
+  <nav>
+    <ul>
+      <li><a href="#problems">عرض المشاكل</a></li>
+      <li><a href="#solutions">كتابة الحلول</a></li>
+      <li><a href="#donations">التبرعات</a></li>
+    </ul>
+  </nav>
+  
+  <!-- قسم عرض المشاكل -->
+  <section id="problems">
+    <div class="content">
+      <h2 class="section-title">عرض المشاكل</h2>
+      <div class="grid">
+        <div class="box">
+          <h3>مشاكل مجتمعية</h3>
+          <p>تفاصيل المشاكل المجتمعية التي تواجهها منطقتنا.</p>
+        </div>
+        <div class="box">
+          <h3>مشاكل بيئية</h3>
+          <p>تفاصيل المشاكل البيئية التي تؤثر على حياتنا.</p>
+        </div>
+        <div class="box">
+          <h3>مشاكل هندسية</h3>
+          <p>تحديات هندسية تحتاج إلى حلول مبتكرة.</p>
+        </div>
+        <div class="box">
+          <h3>مشاكل تعليمية</h3>
+          <p>القضايا التعليمية التي تستدعي اهتمامنا.</p>
+        </div>
+        <div class="box">
+          <h3>مشاكل صحية</h3>
+          <p>المشاكل الصحية التي تؤثر على المجتمع.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- قسم كتابة الحلول -->
+  <section id="solutions">
+    <div class="content">
+      <h2 class="section-title">كتابة الحلول</h2>
+      <p>هذا القسم مخصص للمبدعين لكتابة وتقديم حلولهم المبتكرة للتحديات المذكورة أعلاه.</p>
+      <!-- يمكن هنا إضافة نموذج تفاعلي لإدخال الحلول -->
+    </div>
+  </section>
+  
+  <!-- قسم التبرعات -->
+  <section id="donations">
+    <div class="content">
+      <h2 class="section-title">قسم التبرعات</h2>
+      <p>إذا كنت ترغب في دعم المبادرة والمساهمة في تطوير حلول مبتكرة لمشاكل بلدنا، يرجى التبرع عبر الرابط أدناه:</p>
+      <div class="donation">
+        <a href="#">تبرع الآن</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- تذييل الصفحة -->
+  <footer>
+    <p>&copy; 2025 حلول ابتكارية. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
